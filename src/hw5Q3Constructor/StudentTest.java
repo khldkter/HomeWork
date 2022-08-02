@@ -3,11 +3,12 @@ package hw5Q3Constructor;
 public class StudentTest {
 
 	public static void main(String[] args) {
-	Student obj1=new Student();				
+	//default constructor initialized
+	Student obj1=new Student();	
+	//parameterized constructor initialized
 	Student obj2=new Student("Khaleda Akter",287,'F',true,3.67898f);	
 		
-	System.out.println("stname: "+obj2.name+"\nStId: "+obj2.stID+"\nsex: "+obj2.sex+"progammer: "+obj2.progammer+"grade: "+obj2.grade  );	
-		
+	System.out.println("Student name: "+obj2.stName+"\nStudent Id: "+obj2.stID+"\nStuden's sex: "+obj2.sex+"\nStudent is Progammer: "+obj2.isProgrammer+"\nStudent's grade: "+obj2.grade  );	
 		
 		
 	}
