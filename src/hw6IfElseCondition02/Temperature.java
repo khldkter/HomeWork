@@ -19,7 +19,7 @@ public class Temperature {
 		} else {
 			System.out.println("Ice on my Head Please");
 		}
-		
+
 		scanner.close();
 	}
 
