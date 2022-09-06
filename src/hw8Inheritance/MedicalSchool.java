@@ -1,6 +1,6 @@
 package hw8Inheritance;
 
-public abstract class MedicalSchool {
+public abstract class MedicalSchool extends NursingSchool {
 //abstract
 public abstract void biochemistryLab(); 
 //non abstract
@@ -17,7 +17,7 @@ public MedicalSchool() {}
 
 
 	
-	
+
 	
 	
 
