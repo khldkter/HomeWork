@@ -11,10 +11,8 @@ public void teacher();
 //Note-We can not create a Constructor inside University interface
 
 public default void morgue (){
-
-	
 }
-public static void pharmacy () {
+public static void pharmacy () {}
 //1 keyword is used for the inheritance in Interface	
 //Interface can inherit other Interfaces by extends key word	
 //More than one inheritance is possible	
